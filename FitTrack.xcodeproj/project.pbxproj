@@ -22,6 +22,15 @@
 		AD5030862C46F0F800823C18 /* FitTrack_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5030852C46F0F800823C18 /* FitTrack_Watch_AppTests.swift */; };
 		AD5030902C46F0F800823C18 /* FitTrack_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD50308F2C46F0F800823C18 /* FitTrack_Watch_AppUITests.swift */; };
 		AD5030922C46F0F800823C18 /* FitTrack_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5030912C46F0F800823C18 /* FitTrack_Watch_AppUITestsLaunchTests.swift */; };
+		AD5030A92C46F5BD00823C18 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5030A82C46F5B600823C18 /* WorkoutView.swift */; };
+		AD5030AB2C46F5D500823C18 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5030AA2C46F5D400823C18 /* Models.swift */; };
+		AD5030AD2C46F5E800823C18 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5030AC2C46F5E000823C18 /* HealthKitManager.swift */; };
+		AD5030AF2C46F5F500823C18 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5030AE2C46F5F300823C18 /* MotionManager.swift */; };
+		AD5030B12C46FAC200823C18 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5030B02C46FABE00823C18 /* Models.swift */; };
+		AD5030B32C46FADA00823C18 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5030B22C46FACF00823C18 /* HealthKitManager.swift */; };
+		AD5030B52C46FAED00823C18 /* CoreMotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5030B42C46FAE600823C18 /* CoreMotionManager.swift */; };
+		AD5030B72C46FAFE00823C18 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5030B62C46FAFA00823C18 /* WorkoutView.swift */; };
+		AD5030B92C46FB1400823C18 /* Untitled.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5030B82C46FB0E00823C18 /* Untitled.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +106,19 @@
 		AD50308B2C46F0F800823C18 /* FitTrack Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitTrack Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD50308F2C46F0F800823C18 /* FitTrack_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitTrack_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		AD5030912C46F0F800823C18 /* FitTrack_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitTrack_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD5030A82C46F5B600823C18 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		AD5030AA2C46F5D400823C18 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AD5030AC2C46F5E000823C18 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		AD5030AE2C46F5F300823C18 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		AD5030B02C46FABE00823C18 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AD5030B22C46FACF00823C18 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		AD5030B42C46FAE600823C18 /* CoreMotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionManager.swift; sourceTree = "<group>"; };
+		AD5030B62C46FAFA00823C18 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		AD5030B82C46FB0E00823C18 /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
+		AD5030BA2C46FCE500823C18 /* FitTrack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FitTrack.entitlements; sourceTree = "<group>"; };
+		AD5030BB2C46FD0A00823C18 /* FitTrack Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FitTrack Watch App.entitlements"; sourceTree = "<group>"; };
+		AD9F44AB2C47486100866D5F /* FitTrack-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FitTrack-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AD9F44AC2C47490200866D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +196,12 @@
 		AD50304B2C46F0F600823C18 /* FitTrack */ = {
 			isa = PBXGroup;
 			children = (
+				AD9F44AC2C47490200866D5F /* Info.plist */,
+				AD5030BA2C46FCE500823C18 /* FitTrack.entitlements */,
+				AD5030AE2C46F5F300823C18 /* MotionManager.swift */,
+				AD5030AA2C46F5D400823C18 /* Models.swift */,
+				AD5030AC2C46F5E000823C18 /* HealthKitManager.swift */,
+				AD5030A82C46F5B600823C18 /* WorkoutView.swift */,
 				AD50304C2C46F0F600823C18 /* FitTrackApp.swift */,
 				AD50304E2C46F0F600823C18 /* ContentView.swift */,
 				AD5030502C46F0F700823C18 /* Assets.xcassets */,
@@ -210,6 +238,13 @@
 		AD5030732C46F0F700823C18 /* FitTrack Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				AD9F44AB2C47486100866D5F /* FitTrack-Watch-App-Info.plist */,
+				AD5030BB2C46FD0A00823C18 /* FitTrack Watch App.entitlements */,
+				AD5030B82C46FB0E00823C18 /* Untitled.swift */,
+				AD5030B62C46FAFA00823C18 /* WorkoutView.swift */,
+				AD5030B22C46FACF00823C18 /* HealthKitManager.swift */,
+				AD5030B42C46FAE600823C18 /* CoreMotionManager.swift */,
+				AD5030B02C46FABE00823C18 /* Models.swift */,
 				AD5030742C46F0F700823C18 /* FitTrackApp.swift */,
 				AD5030762C46F0F700823C18 /* ContentView.swift */,
 				AD5030782C46F0F800823C18 /* Assets.xcassets */,
@@ -466,7 +501,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD50304F2C46F0F600823C18 /* ContentView.swift in Sources */,
+				AD5030AF2C46F5F500823C18 /* MotionManager.swift in Sources */,
+				AD5030A92C46F5BD00823C18 /* WorkoutView.swift in Sources */,
 				AD50304D2C46F0F600823C18 /* FitTrackApp.swift in Sources */,
+				AD5030AD2C46F5E800823C18 /* HealthKitManager.swift in Sources */,
+				AD5030AB2C46F5D500823C18 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,7 +530,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5030B12C46FAC200823C18 /* Models.swift in Sources */,
+				AD5030B52C46FAED00823C18 /* CoreMotionManager.swift in Sources */,
+				AD5030B92C46FB1400823C18 /* Untitled.swift in Sources */,
 				AD5030772C46F0F700823C18 /* ContentView.swift in Sources */,
+				AD5030B32C46FADA00823C18 /* HealthKitManager.swift in Sources */,
+				AD5030B72C46FAFE00823C18 /* WorkoutView.swift in Sources */,
 				AD5030752C46F0F700823C18 /* FitTrackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -663,13 +707,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FitTrack Watch App/FitTrack Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FitTrack Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = Y7YN5PPNN8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FitTrack-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = FitTrack;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Please allow access";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Please allow access";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = swe.FitTrack;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -693,13 +742,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FitTrack Watch App/FitTrack Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FitTrack Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = Y7YN5PPNN8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FitTrack-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = FitTrack;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Please allow access";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Please allow access";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = swe.FitTrack;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -724,13 +778,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FitTrack/FitTrack.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FitTrack/Preview Content\"";
 				DEVELOPMENT_TEAM = Y7YN5PPNN8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitTrack/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = FitTrack;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Please allow access";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Please allow access";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -756,13 +817,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FitTrack/FitTrack.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FitTrack/Preview Content\"";
 				DEVELOPMENT_TEAM = Y7YN5PPNN8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitTrack/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = FitTrack;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Please allow access";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Please allow access";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

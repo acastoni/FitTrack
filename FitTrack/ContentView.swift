@@ -1,24 +1,27 @@
-//
-//  ContentView.swift
-//  FitTrack
-//
-//  Created by Anthony Castillo on 7/16/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedExercise: ExerciseType = .general
+    @State private var isWorkoutStarted = false
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+            Picker("Select Exercise", selection: $selectedExercise) {
+                Text("Bench Press").tag(ExerciseType.benchPress)
+                Text("Pull Up").tag(ExerciseType.pullUp)
+                Text("General").tag(ExerciseType.general)
+            }
+            .pickerStyle(SegmentedPickerStyle())
+            .padding()
 
-#Preview {
-    ContentView()
+            if isWorkoutStarted {
+                WorkoutView(exerciseType: selectedExercise)
+            } else {
+                Button("Start Workout") {
+                    isWorkoutStarted = true
+                }
+                .padding()
+            }
+        }
+    }
 }

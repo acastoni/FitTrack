@@ -1,24 +1,27 @@
-//
-//  ContentView.swift
-//  FitTrack Watch App
-//
-//  Created by Anthony Castillo on 7/16/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedExercise: ExerciseType = .general
+    @State private var isWorkoutStarted = false
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+            if isWorkoutStarted {
+                WorkoutView(exerciseType: selectedExercise, isWorkoutStarted: $isWorkoutStarted)
+            } else {
+                Picker("Select Exercise", selection: $selectedExercise) {
+                    Text("Bench Press").tag(ExerciseType.benchPress)
+                    Text("Pull Up").tag(ExerciseType.pullUp)
+                    Text("General").tag(ExerciseType.general)
+                }
+                .pickerStyle(WheelPickerStyle())
+                .padding()
 
-#Preview {
-    ContentView()
+                Button("Start Workout") {
+                    isWorkoutStarted = true
+                }
+                .padding()
+            }
+        }
+    }
 }
